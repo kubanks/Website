@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+.baner {
+    background-color: #4682B4;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.stopka {
+    background-color: #4682B4;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: auto;
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lewy {
+    background-color: #40E0D0;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.prawy {
+    background-color: #40E0D0;
+    width: 60%;
+    height: 500px; 
+    float: left;
+}
+
+
+.lewy, .prawy{
+    min-height: 730px; /*  lub min-height: auto*/ 
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000080;
+    width: 550px;
+}
